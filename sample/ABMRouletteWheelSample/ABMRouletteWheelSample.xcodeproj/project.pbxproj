@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E00B9B719603E84000BF457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E00B9B619603E84000BF457 /* Foundation.framework */; };
+		6E00B9B919603E84000BF457 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E00B9B819603E84000BF457 /* CoreGraphics.framework */; };
+		6E00B9BB19603E84000BF457 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E00B9BA19603E84000BF457 /* UIKit.framework */; };
+		6E00B9C119603E84000BF457 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E00B9BF19603E84000BF457 /* InfoPlist.strings */; };
+		6E00B9C319603E84000BF457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E00B9C219603E84000BF457 /* main.m */; };
+		6E00B9C719603E84000BF457 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E00B9C619603E84000BF457 /* AppDelegate.m */; };
+		6E00B9CA19603E84000BF457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E00B9C819603E84000BF457 /* Main.storyboard */; };
+		6E00B9CD19603E84000BF457 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E00B9CC19603E84000BF457 /* ViewController.m */; };
+		6E00B9CF19603E84000BF457 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E00B9CE19603E84000BF457 /* Images.xcassets */; };
+		6E00B9D619603E84000BF457 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E00B9D519603E84000BF457 /* XCTest.framework */; };
+		6E00B9D719603E84000BF457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E00B9B619603E84000BF457 /* Foundation.framework */; };
+		6E00B9D819603E84000BF457 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E00B9BA19603E84000BF457 /* UIKit.framework */; };
+		6E00B9E019603E84000BF457 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E00B9DE19603E84000BF457 /* InfoPlist.strings */; };
+		6E00B9E219603E84000BF457 /* ABMRouletteWheelSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E00B9E119603E84000BF457 /* ABMRouletteWheelSampleTests.m */; };
+		6E00B9EE19605448000BF457 /* ABMRouletteWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E00B9ED19605448000BF457 /* ABMRouletteWheel.m */; };
+		6E00B9F1196054C1000BF457 /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E00B9F0196054C1000BF457 /* Ball.png */; };
+		6E00B9F3196054DC000BF457 /* small_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E00B9F2196054DC000BF457 /* small_ball.png */; };
+		6E00B9F5196054E1000BF457 /* roulette_wheel_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E00B9F4196054E1000BF457 /* roulette_wheel_image.png */; };
+		6E00B9F7196054FF000BF457 /* roulette-vc-roulette-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E00B9F6196054FF000BF457 /* roulette-vc-roulette-bg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E00B9D919603E84000BF457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E00B9AB19603E84000BF457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E00B9B219603E84000BF457;
+			remoteInfo = ABMRouletteWheelSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E00B9B319603E84000BF457 /* ABMRouletteWheelSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABMRouletteWheelSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E00B9B619603E84000BF457 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E00B9B819603E84000BF457 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E00B9BA19603E84000BF457 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E00B9BE19603E84000BF457 /* ABMRouletteWheelSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABMRouletteWheelSample-Info.plist"; sourceTree = "<group>"; };
+		6E00B9C019603E84000BF457 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E00B9C219603E84000BF457 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E00B9C419603E84000BF457 /* ABMRouletteWheelSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABMRouletteWheelSample-Prefix.pch"; sourceTree = "<group>"; };
+		6E00B9C519603E84000BF457 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E00B9C619603E84000BF457 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E00B9C919603E84000BF457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E00B9CB19603E84000BF457 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E00B9CC19603E84000BF457 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E00B9CE19603E84000BF457 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E00B9D419603E84000BF457 /* ABMRouletteWheelSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABMRouletteWheelSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E00B9D519603E84000BF457 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6E00B9DD19603E84000BF457 /* ABMRouletteWheelSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABMRouletteWheelSampleTests-Info.plist"; sourceTree = "<group>"; };
+		6E00B9DF19603E84000BF457 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E00B9E119603E84000BF457 /* ABMRouletteWheelSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABMRouletteWheelSampleTests.m; sourceTree = "<group>"; };
+		6E00B9EC19605448000BF457 /* ABMRouletteWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABMRouletteWheel.h; sourceTree = "<group>"; };
+		6E00B9ED19605448000BF457 /* ABMRouletteWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABMRouletteWheel.m; sourceTree = "<group>"; };
+		6E00B9F0196054C1000BF457 /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
+		6E00B9F2196054DC000BF457 /* small_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_ball.png; sourceTree = "<group>"; };
+		6E00B9F4196054E1000BF457 /* roulette_wheel_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roulette_wheel_image.png; sourceTree = "<group>"; };
+		6E00B9F6196054FF000BF457 /* roulette-vc-roulette-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "roulette-vc-roulette-bg.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E00B9B019603E84000BF457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E00B9B919603E84000BF457 /* CoreGraphics.framework in Frameworks */,
+				6E00B9BB19603E84000BF457 /* UIKit.framework in Frameworks */,
+				6E00B9B719603E84000BF457 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E00B9D119603E84000BF457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E00B9D619603E84000BF457 /* XCTest.framework in Frameworks */,
+				6E00B9D819603E84000BF457 /* UIKit.framework in Frameworks */,
+				6E00B9D719603E84000BF457 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E00B9AA19603E84000BF457 = {
+			isa = PBXGroup;
+			children = (
+				6E00B9BC19603E84000BF457 /* ABMRouletteWheelSample */,
+				6E00B9DB19603E84000BF457 /* ABMRouletteWheelSampleTests */,
+				6E00B9B519603E84000BF457 /* Frameworks */,
+				6E00B9B419603E84000BF457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E00B9B419603E84000BF457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E00B9B319603E84000BF457 /* ABMRouletteWheelSample.app */,
+				6E00B9D419603E84000BF457 /* ABMRouletteWheelSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E00B9B519603E84000BF457 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E00B9B619603E84000BF457 /* Foundation.framework */,
+				6E00B9B819603E84000BF457 /* CoreGraphics.framework */,
+				6E00B9BA19603E84000BF457 /* UIKit.framework */,
+				6E00B9D519603E84000BF457 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E00B9BC19603E84000BF457 /* ABMRouletteWheelSample */ = {
+			isa = PBXGroup;
+			children = (
+				6E00B9EF196054BA000BF457 /* Assets */,
+				6E00B9EB19605238000BF457 /* Roulette wheel control */,
+				6E00B9C519603E84000BF457 /* AppDelegate.h */,
+				6E00B9C619603E84000BF457 /* AppDelegate.m */,
+				6E00B9C819603E84000BF457 /* Main.storyboard */,
+				6E00B9CB19603E84000BF457 /* ViewController.h */,
+				6E00B9CC19603E84000BF457 /* ViewController.m */,
+				6E00B9CE19603E84000BF457 /* Images.xcassets */,
+				6E00B9BD19603E84000BF457 /* Supporting Files */,
+			);
+			path = ABMRouletteWheelSample;
+			sourceTree = "<group>";
+		};
+		6E00B9BD19603E84000BF457 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E00B9BE19603E84000BF457 /* ABMRouletteWheelSample-Info.plist */,
+				6E00B9BF19603E84000BF457 /* InfoPlist.strings */,
+				6E00B9C219603E84000BF457 /* main.m */,
+				6E00B9C419603E84000BF457 /* ABMRouletteWheelSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E00B9DB19603E84000BF457 /* ABMRouletteWheelSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E00B9E119603E84000BF457 /* ABMRouletteWheelSampleTests.m */,
+				6E00B9DC19603E84000BF457 /* Supporting Files */,
+			);
+			path = ABMRouletteWheelSampleTests;
+			sourceTree = "<group>";
+		};
+		6E00B9DC19603E84000BF457 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E00B9DD19603E84000BF457 /* ABMRouletteWheelSampleTests-Info.plist */,
+				6E00B9DE19603E84000BF457 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E00B9EB19605238000BF457 /* Roulette wheel control */ = {
+			isa = PBXGroup;
+			children = (
+				6E00B9EC19605448000BF457 /* ABMRouletteWheel.h */,
+				6E00B9ED19605448000BF457 /* ABMRouletteWheel.m */,
+			);
+			name = "Roulette wheel control";
+			sourceTree = "<group>";
+		};
+		6E00B9EF196054BA000BF457 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6E00B9F6196054FF000BF457 /* roulette-vc-roulette-bg.png */,
+				6E00B9F4196054E1000BF457 /* roulette_wheel_image.png */,
+				6E00B9F2196054DC000BF457 /* small_ball.png */,
+				6E00B9F0196054C1000BF457 /* Ball.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E00B9B219603E84000BF457 /* ABMRouletteWheelSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E00B9E519603E84000BF457 /* Build configuration list for PBXNativeTarget "ABMRouletteWheelSample" */;
+			buildPhases = (
+				6E00B9AF19603E84000BF457 /* Sources */,
+				6E00B9B019603E84000BF457 /* Frameworks */,
+				6E00B9B119603E84000BF457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABMRouletteWheelSample;
+			productName = ABMRouletteWheelSample;
+			productReference = 6E00B9B319603E84000BF457 /* ABMRouletteWheelSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E00B9D319603E84000BF457 /* ABMRouletteWheelSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E00B9E819603E84000BF457 /* Build configuration list for PBXNativeTarget "ABMRouletteWheelSampleTests" */;
+			buildPhases = (
+				6E00B9D019603E84000BF457 /* Sources */,
+				6E00B9D119603E84000BF457 /* Frameworks */,
+				6E00B9D219603E84000BF457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E00B9DA19603E84000BF457 /* PBXTargetDependency */,
+			);
+			name = ABMRouletteWheelSampleTests;
+			productName = ABMRouletteWheelSampleTests;
+			productReference = 6E00B9D419603E84000BF457 /* ABMRouletteWheelSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E00B9AB19603E84000BF457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Abdul Basit";
+				TargetAttributes = {
+					6E00B9D319603E84000BF457 = {
+						TestTargetID = 6E00B9B219603E84000BF457;
+					};
+				};
+			};
+			buildConfigurationList = 6E00B9AE19603E84000BF457 /* Build configuration list for PBXProject "ABMRouletteWheelSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E00B9AA19603E84000BF457;
+			productRefGroup = 6E00B9B419603E84000BF457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E00B9B219603E84000BF457 /* ABMRouletteWheelSample */,
+				6E00B9D319603E84000BF457 /* ABMRouletteWheelSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E00B9B119603E84000BF457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E00B9CF19603E84000BF457 /* Images.xcassets in Resources */,
+				6E00B9F5196054E1000BF457 /* roulette_wheel_image.png in Resources */,
+				6E00B9C119603E84000BF457 /* InfoPlist.strings in Resources */,
+				6E00B9F1196054C1000BF457 /* Ball.png in Resources */,
+				6E00B9F7196054FF000BF457 /* roulette-vc-roulette-bg.png in Resources */,
+				6E00B9F3196054DC000BF457 /* small_ball.png in Resources */,
+				6E00B9CA19603E84000BF457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E00B9D219603E84000BF457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E00B9E019603E84000BF457 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E00B9AF19603E84000BF457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E00B9CD19603E84000BF457 /* ViewController.m in Sources */,
+				6E00B9C719603E84000BF457 /* AppDelegate.m in Sources */,
+				6E00B9EE19605448000BF457 /* ABMRouletteWheel.m in Sources */,
+				6E00B9C319603E84000BF457 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E00B9D019603E84000BF457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E00B9E219603E84000BF457 /* ABMRouletteWheelSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E00B9DA19603E84000BF457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E00B9B219603E84000BF457 /* ABMRouletteWheelSample */;
+			targetProxy = 6E00B9D919603E84000BF457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E00B9BF19603E84000BF457 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E00B9C019603E84000BF457 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E00B9C819603E84000BF457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E00B9C919603E84000BF457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E00B9DE19603E84000BF457 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E00B9DF19603E84000BF457 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E00B9E319603E84000BF457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E00B9E419603E84000BF457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E00B9E619603E84000BF457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ABMRouletteWheelSample/ABMRouletteWheelSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "ABMRouletteWheelSample/ABMRouletteWheelSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E00B9E719603E84000BF457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ABMRouletteWheelSample/ABMRouletteWheelSample-Prefix.pch";
+				INFOPLIST_FILE = "ABMRouletteWheelSample/ABMRouletteWheelSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6E00B9E919603E84000BF457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ABMRouletteWheelSample.app/ABMRouletteWheelSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ABMRouletteWheelSample/ABMRouletteWheelSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ABMRouletteWheelSampleTests/ABMRouletteWheelSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6E00B9EA19603E84000BF457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ABMRouletteWheelSample.app/ABMRouletteWheelSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ABMRouletteWheelSample/ABMRouletteWheelSample-Prefix.pch";
+				INFOPLIST_FILE = "ABMRouletteWheelSampleTests/ABMRouletteWheelSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E00B9AE19603E84000BF457 /* Build configuration list for PBXProject "ABMRouletteWheelSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E00B9E319603E84000BF457 /* Debug */,
+				6E00B9E419603E84000BF457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E00B9E519603E84000BF457 /* Build configuration list for PBXNativeTarget "ABMRouletteWheelSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E00B9E619603E84000BF457 /* Debug */,
+				6E00B9E719603E84000BF457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E00B9E819603E84000BF457 /* Build configuration list for PBXNativeTarget "ABMRouletteWheelSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E00B9E919603E84000BF457 /* Debug */,
+				6E00B9EA19603E84000BF457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E00B9AB19603E84000BF457 /* Project object */;
+}
